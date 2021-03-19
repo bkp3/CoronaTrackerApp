@@ -20,7 +20,7 @@ class ListAdapter(val list: List<StateWiseItem>): BaseAdapter() {
         var confirmedTv = view.findViewById<TextView>(R.id.confirmedTv)
         var activeTv = view.findViewById<TextView>(R.id.activeTv)
         var recoveredTv = view.findViewById<TextView>(R.id.recoveredTv)
-        var deathTv = view.findViewById<TextView>(R.id.deathTv)
+        var deathTv = view.findViewById<TextView>(R.id.deceasedTv)
         var stateTv = view.findViewById<TextView>(R.id.stateTv)
 
         confirmedTv.text = item.confirmed
